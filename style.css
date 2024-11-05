@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrar el texto de todo el cuerpo */
+}
+
+header.titulo {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Centrar el texto del header */
+}
+
+main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.escudo img {
+    max-width: 150px;
+    margin: 20px 0;
+}
+
+.categoria {
+    margin: 20px 0;
+}
+
+.categoria nav a p {
+    background-color: #eaeaea;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    transition: background-color 0.3s;
+}
+
+.categoria nav a p:hover {
+    background-color: #ccc;
+}
+
+.jugadores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.jugador {
+    width: 80px;
+    height: 70px;
+}
+
+.centro {
+    text-align: center;
+}
+
+/* Estilos para páginas individuales */
+.jugadores-grande {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.jugador-grande {
+    width: 120px;
+    height: 100px;
+}
